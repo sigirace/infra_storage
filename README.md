@@ -31,3 +31,15 @@ rs.initiate({
 ```
 docker-compose restart
 ```
+
+# Mysql
+
+```
+mysql -u root -p
+admin1234!
+```
+
+```
+CREATE DATABASE python_fastapi;
+GRANT ALL PRIVILEGES ON python_fastapi.* TO 'admin'@'%';
+```
